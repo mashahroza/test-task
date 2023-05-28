@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+    <main class="main">
+        <button class="menu__btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="side-menu-section">
+            <div class="wrapper-inner">
+                <div class="side-menu">
+                    <div class="side-menu__top">
+                        <a href="#" class="side-menu__header">
+                            <img class="side-menu__logo-img" src="./img/setting.svg" alt="logo">
+                            <h1 class="side-menu__logo-text">Dashboard</h1>
+                            <p class="side-menu__version">v.01</p>
+                        </a>
+                        <nav class="menu">
+                            <ul class="side-menu__list">
+                                <li class="side-menu__item-first">
+                                    <div class="side-menu__item-left">
+                                        <div class="dashboard"></div>
+                                        <p class="side-menu__item-text">Dashboard</p>
+                                    </div>
+                                </li>
+                                <li class="side-menu__item">
+                                    <div class="side-menu__item-left">
+                                        <div class="side-menu__item-icon product"></div>
+                                        <p class="side-menu__item-text">Product</p>
+                                    </div>
+                                </li>
+                                <li class="side-menu__item">
+                                    <div class="side-menu__item-left">
+                                        <div class="side-menu__item-icon customer"></div>
+                                        <p class="side-menu__item-text">Customers</p>
+                                    </div>
+                                </li>
+                                <li class="side-menu__item">
+                                    <div class="side-menu__item-left">
+                                        <div class="side-menu__item-icon income"></div>
+                                        <p class="side-menu__item-text">Income</p>
+                                    </div>
+                                </li>
+                                <li class="side-menu__item">
+                                    <div class="side-menu__item-left">
+                                        <div class="side-menu__item-icon promote"></div>
+                                        <p class="side-menu__item-text">Promote</p>
+                                    </div>
+                                </li>
+                                <li class="side-menu__item">
+                                    <div class="side-menu__item-left">
+                                        <div class="side-menu__item-icon help"></div>
+                                        <p class="side-menu__item-text">Help</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="side-menu__bottom">
+                        <a href="#" class="side-menu__user">
+                            <img class="side-menu__user-img" src="./img/Ellipse 8.png" alt="account photo">
+                            <div class="side-menu__user-text">
+                                <h2 class="side-menu__user-name">Evano</h2>
+                                <p class="side-menu__user-details">Project Manager</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-block">
+            <div class="modal-box">
+
+            </div>
+            <h2 class="main-block__title">Hello Evano 👋🏼,</h2>
+            <section class="table__section">
+
+                <div class="table__top">
+                    <div class="table__top-right">
+                        <h3 class="table__top-right__title">All Customers</h3>
+                        <p class="table__top-right__text">Active Members</p>
+                    </div>
+
+                    <div class="table__top-left">
+                        <div class="search">
+                            <img src="./img/search.svg" alt="search icon" class="search__button">
+                            <input type="text" name="text" class="search__input" placeholder="Search">
+                        </div>
+                    </div>
+                </div>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="table__title" scope="col">Customer Name</th>
+                            <th class="table__title" scope="col">Company</th>
+                            <th class="table__title" scope="col">Phone Number</th>
+                            <th class="table__title" scope="col">Email</th>
+                            <th class="table__title" scope="col">Country</th>
+                            <th class="table__title" scope="col">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th data-label="Customer Name" class="table__cell" scope="row">Jane Cooper</th>
+                            <td data-label="Company" class="table__cell">Microsoft</td>
+                            <td data-label="Phone Number" class="table__cell">(225) 555-0118</td>
+                            <td data-label="Email" class="table__cell">jane@microsoft.com</td>
+                            <td data-label="Country" class="table__cell">United States</td>
+                            <td data-label="Status" class="table__status">
+                                <p class="table__status-activ">Active</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th data-label="Customer Name" class="table__cell" scope="row">Floyd Miles</th>
+                            <td data-label="Company" class="table__cell">Yahoo</td>
+                            <td data-label="Phone Number" class="table__cell">(205) 555-0100</td>
+                            <td data-label="Email" class="table__cell">floyd@yahoo.com</td>
+                            <td data-label="Country" class="table__cell">Kiribati</td>
+                            <td data-label="Status" class="table__status">
+                                <p class="table__status-inactiv">Inactive</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th data-label="Customer Name" class="table__cell" scope="row">Ronald Richards</th>
+                            <td data-label="Company" class="table__cell">Adobe</td>
+                            <td data-label="Phone Number" class="table__cell">(302) 555-0107</td>
+                            <td data-label="Email" class="table__cell">ronald@adobe.com</td>
+                            <td data-label="Country" class="table__cell">Israel</td>
+                            <td data-label="Status" class="table__status">
+                                <p class="table__status-inactiv">Inactive</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th data-label="Customer Name" class="table__cell" scope="row">Marvin McKinney</th>
+                            <td data-label="Company" class="table__cell">Tesla</td>
+                            <td data-label="Phone Number" class="table__cell">(252) 555-0126</td>
+                            <td data-label="Email" class="table__cell">marvin@tesla.com</td>
+                            <td data-label="Country" class="table__cell">Iran</td>
+                            <td data-label="Status"  class="table__status">
+                                <p class="table__status-activ">Active</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th data-label="Customer Name" class="table__cell" scope="row">Jerome Bell</th>
+                            <td data-label="Company"  class="table__cell">Google</td>
+                            <td data-label="Phone Number" class="table__cell">(629) 555-0129</td>
+                            <td data-label="Email" class="table__cell">jerome@google.com</td>
+                            <td data-label="Country" class="table__cell">Réunion</td>
+                            <td data-label="Status"class="table__status">
+                                <p class="table__status-activ">Active</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th data-label="Customer Name" class="table__cell" scope="row">Kathryn Murphy</th>
+                            <td data-label="Company" class="table__cell">Microsoft</td>
+                            <td data-label="Phone Number" class="table__cell">(406) 555-0120</td>
+                            <td data-label="Email" class="table__cell">kathryn@microsoft.com</td>
+                            <td data-label="Country" class="table__cell">Curaçao</td>
+                            <td data-label="Status" class="table__status">
+                                <p class="table__status-activ">Active</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th data-label="Customer Name" class="table__cell" scope="row">Jacob Jones</th>
+                            <td data-label="Company"  class="table__cell">Yahoo</td>
+                            <td data-label="Phone Number" class="table__cell">(208) 555-0112</td>
+                            <td data-label="Email" class="table__cell">jacob@yahoo.com</td>
+                            <td data-label="Country" class="table__cell">Brazil</td>
+                            <td data-label="Status" class="table__status">
+                                <p class="table__status-activ">Active</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th data-label="Customer Name" class="table__cell" scope="row">Kristin Watson</th>
+                            <td data-label="Company" class="table__cell">Facebook</td>
+                            <td data-label="Phone Number" class="table__cell">(704) 555-0127</td>
+                            <td data-label="Email" class="table__cell">kristin@facebook.com</td>
+                            <td data-label="Country" class="table__cell">Åland Islands</td>
+                            <td data-label="Status"class="table__status">
+                                <p class="table__status-inactiv">Inactive</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="table__bottom">
+                    <p class="table__bottom__text">Showing data 1 to 8 of 256K entries</p>
+                    <ul class="table__bottom__list">
+                        <li class="table__bottom__item"><span class="table__bottom__arrow-left"></span></li>
+                        <li class="table__bottom__item">
+                            <p class="table__bottom__item-text">1</p>
+                        </li>
+                        <li class="table__bottom__item">
+                            <p class="table__bottom__item-text">2</p>
+                        </li>
+                        <li class="table__bottom__item delete">
+                            <p class="table__bottom__item-text">3</p>
+                        </li>
+                        <li class="table__bottom__item delete">
+                            <p class="table__bottom__item-text">4</p>
+                        </li>
+                        <li class="table__bottom__item-ellipsis">...</li>
+                        <li class="table__bottom__item">
+                            <p class="table__bottom__item-text">40</p>
+                        </li>
+                        <li class="table__bottom__item"><span class="table__bottom__arrow-right"></span></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
