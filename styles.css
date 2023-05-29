@@ -652,6 +652,14 @@ p {
         margin: 54px 0 24px 48px;
     }
 
+    .menu__btn--active {
+        left: 44vh;
+    }
+
+    .wrapper-inner {
+        width: 100vh;
+    }
+
     .table__section {
         width: 445px;
     }
@@ -742,24 +750,18 @@ p {
 
 @media (max-width: 405px) {
     .menu__btn--active {
-        left: 35vh;
+        left: 33vh;
         margin-top: 25px;
     }
 }
 
 @media (max-width: 380px) {
     .table__section {
-        width: 298px;
+        width: 260px;
     }
 
     .menu__btn--active {
-        left: 42vh;
-    }
-}
-
-@media (max-width: 380px) {
-    .table__section {
-        width: 260px;
+        left:30vh;
     }
 
     .search__input {
